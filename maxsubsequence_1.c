@@ -9,8 +9,7 @@ int main(void)
 	{
 		scanf("%d",&A[i]);
 	}
-	Maxsum=Maxsubsequence(A,K);
-	printf("%d\n",Maxsum);
+	Maxsubsequence(A,K);
 	return 0;
 }
 
@@ -30,6 +29,7 @@ int Maxsubsequence(const A[],int N)
 		}
 	
 	}
-	return MaxSum;
+	printf("%d\n",MaxSum);
+	return 0;
 	
 }
